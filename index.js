@@ -1,4 +1,4 @@
-element = document.getElementsByClassName('Gv1mTb-aTv5jf')[0] 
+const element = document.getElementsByTagName('video')[0] 
 if (element.requestFullscreen) { 
     element.requestFullscreen(); 
 } else if (element.mozRequestFullScreen) {
